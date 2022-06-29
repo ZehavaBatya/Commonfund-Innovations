@@ -1,0 +1,360 @@
+// Logo screen
+Rectangle()
+.fill(Color(red: 0.50, green: 0.23, blue: 0.27, opacity: 0.50))
+.frame(width: 200, height: 200)
+.padding(.vertical, 306)
+.padding(.leading, 96)
+.padding(.trailing, 79)
+.frame(width: 375, height: 812)
+.background(Color(red: 0.07, green: 0.17, blue: 0.27))
+.cornerRadius(30)
+
+// Login
+ZStack {
+    ZStack {
+    Group {
+            Text("Existing clients \nplease log-in below.")
+            .font(.largeTitle)
+            .lineSpacing(37.88)
+            .offset(x: 7.50, y: -119.50)
+
+            VStack(spacing: 1332.06) {
+                        RoundedRectangle(cornerRadius: 8)
+                        .fill(Color.white).rotationEffect(.degrees(90.58))
+                        .frame(width: 23.16, height: 26.94)
+
+                        Ellipse()
+                        .fill(Color(red: 0.07, green: 0, blue: 0.38))
+                        .frame(width: 60, height: 60)
+            }
+            .offset(x: 132.50, y: 372.50)
+            .frame(width: 60, height: 60)
+
+            Text("Important Information")
+            .font(.subheadline)
+            .offset(x: -79, y: 284.50)
+
+            Text("By logging in and using the account information of this Website, you agree that Commonfund will have no liability for damages arising from any actions such as investment decisions, taken by or \nor behalf of your institution based on the accuracy of \nthe account data presented in this app. ")
+            .font(.caption2)
+            .frame(width: 313, alignment: .topLeading)
+            .offset(x: 6, y: 326)
+
+            ZStack {
+                    Text("LOGIN")
+                    .fontWeight(.bold)
+                    .font(.subheadline)
+                    .frame(width: 46, height: 12.96, alignment: .topLeading)
+                    .tracking(0.84)
+                    .padding(.leading, 116)
+                    .padding(.trailing, 104)
+                    .padding(.top, 12)
+                    .padding(.bottom, 11)
+                    .offset(x: -40.50, y: -322)
+                    .frame(width: 266, height: 36)
+                    .background(Color(red: 0.07, green: 0, blue: 0.38))
+                    .shadow(radius: 62, y: 4)
+
+                    Rectangle()
+                    .fill(Color.white)
+                    .offset(x: -38, y: -410)
+                    .frame(width: 311, height: 312)
+            }
+            .offset(x: 5, y: 105.50)
+            .frame(width: 311, height: 312)
+
+            Rectangle()
+            .fill(Color(red: 0.87, green: 0.88, blue: 0.90))
+            .offset(x: 0, y: 51.50)
+            .frame(width: 263, height: 36)
+
+            Text("Username")
+            .font(.caption)
+            .offset(x: -93.50, y: 51.50)
+
+            Rectangle()
+            .fill(Color(red: 0.87, green: 0.88, blue: 0.90))
+            .offset(x: 1, y: 102.50)
+            .frame(width: 263, height: 36)
+
+            Text("Password")
+            .font(.caption)
+            .offset(x: -95, y: 102.50)
+
+            RoundedRectangle(cornerRadius: 5)
+            .fill(Color.white)
+            .offset(x: -117.50, y: 151.50)
+            .frame(width: 20, height: 20)
+            .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.black, lineWidth: 1))
+    }
+    Group {
+            Text("Secure Access ")
+            .fontWeight(.bold)
+            .font(.subheadline)
+            .offset(x: -48.50, y: -7.50)
+
+            Text("Remember me?")
+            .font(.caption)
+            .offset(x: -57.50, y: 151.50)
+
+            RoundedRectangle(cornerRadius: 8)
+            .fill(Color.black)
+            .offset(x: -119.50, y: -10)
+            .frame(width: 24, height: 25)
+
+            VStack(spacing: 1360) {
+                        Rectangle().rotationEffect(.degrees(180))
+                        .frame(width: 87, height: 1)
+
+                        Text("Reset Password")
+                        .font(.caption)
+            }
+            .padding(.leading, 2)
+            .offset(x: -87, y: 235.50)
+            .frame(width: 89, height: 16)
+    }
+    }
+    .offset(x: -1, y: -17.50)
+    .frame(width: 375, height: 849)
+    .cornerRadius(8)
+
+    VStack(alignment: .trailing, spacing: 0) {
+            Rectangle()
+            .fill(Color(red: 0.50, green: 0.23, blue: 0.27, opacity: 0.50))
+            .frame(width: 200, height: 50)
+            .padding(.leading, 178)
+            .padding(.trailing, 9)
+            .padding(.top, 21)
+            .frame(width: 387, height: 71)
+            .background(Color(red: 0.07, green: 0.17, blue: 0.27))
+
+            Rectangle()
+            .fill(Color(red: 0.30, green: 0.33, blue: 0.68))
+            .frame(width: 387, height: 23)
+
+            Rectangle()
+            .fill(Color(red: 0.18, green: 0.42, blue: 0.78))
+            .frame(width: 401, height: 23)
+
+            Rectangle()
+            .fill(Color(red: 0.43, green: 0.69, blue: 1))
+            .frame(width: 384, height: 23)
+    }
+    .offset(x: -4, y: -347)
+    .frame(width: 401, height: 140)
+}
+.frame(width: 375, height: 812)
+.background(Color(red: 0.95, green: 0.95, blue: 0.95))
+.cornerRadius(30)
+
+// Forgot Password 
+VStack(spacing: 91.67) {
+    VStack(alignment: .trailing, spacing: 0) {
+            Rectangle()
+            .fill(Color(red: 0.50, green: 0.23, blue: 0.27, opacity: 0.50))
+            .frame(width: 200, height: 50)
+            .padding(.leading, 178)
+            .padding(.trailing, 9)
+            .padding(.top, 21)
+            .frame(width: 387, height: 71)
+            .background(Color(red: 0.07, green: 0.17, blue: 0.27))
+
+            Rectangle()
+            .fill(Color(red: 0.30, green: 0.33, blue: 0.68))
+            .frame(width: 387, height: 23)
+
+            Rectangle()
+            .fill(Color(red: 0.18, green: 0.42, blue: 0.78))
+            .frame(width: 401, height: 23)
+
+            Rectangle()
+            .fill(Color(red: 0.43, green: 0.69, blue: 1))
+            .frame(width: 384, height: 23)
+    }
+    .frame(maxWidth: .infinity, maxHeight: 140)
+
+    Text("Forgot Password?")
+    .fontWeight(.bold)
+    .font(.largeTitle)
+
+    VStack(alignment: .leading, spacing: 9.80) {
+            RoundedRectangle(cornerRadius: 8)
+            .fill(Color.black)
+            .frame(width: 24, height: 25)
+
+            Text("Secure Access ")
+            .fontWeight(.bold)
+            .font(.subheadline)
+
+            Rectangle()
+            .fill(Color(red: 0.87, green: 0.88, blue: 0.90))
+            .frame(width: 263, height: 36)
+
+            Text("Email ")
+            .font(.caption)
+
+            Text("RESET PASSWORD")
+            .fontWeight(.bold)
+            .font(.subheadline)
+            .frame(width: 139, height: 13, alignment: .topLeading)
+            .tracking(0.84)
+            .padding(.leading, 68)
+            .padding(.trailing, 59)
+            .padding(.top, 12)
+            .padding(.bottom, 11)
+            .frame(width: 266, height: 36)
+            .background(Color(red: 0.07, green: 0, blue: 0.38))
+            .shadow(radius: 62, y: 4)
+            .frame(width: 266, height: 36)
+
+            VStack(alignment: .leading, spacing: 1360) {
+                        Rectangle().rotationEffect(.degrees(180))
+                        .frame(width: 87, height: 1)
+
+                        Text("Back to Login")
+                        .font(.caption)
+            }
+            .padding(.leading, 2)
+            .frame(width: 87, height: 16)
+    }
+    .padding(.leading, 25)
+    .padding(.trailing, 20)
+    .padding(.top, 17)
+    .padding(.bottom, 46)
+    .frame(width: 311, height: 261)
+    .background(Color.white)
+
+    VStack(spacing: 1332.06) {
+            RoundedRectangle(cornerRadius: 8)
+            .fill(Color.white).rotationEffect(.degrees(90.58))
+            .frame(width: 23.16, height: 26.94)
+
+            Ellipse()
+            .fill(Color(red: 0.07, green: 0, blue: 0.38))
+            .frame(width: 60, height: 60)
+    }
+    .frame(width: 60, height: 60)
+}
+.padding(.bottom, 24)
+.frame(width: 375, height: 812)
+.background(Color(red: 0.95, green: 0.95, blue: 0.95))
+.cornerRadius(30)
+
+// Check Your Email
+
+VStack(spacing: 175.40) {
+    ZStack {
+        Ellipse()
+        .fill(Color(red: 0.07, green: 0, blue: 0.38)).rotationEffect(.degrees(-180))
+        .offset(x: -1235, y: 654)
+        .frame(width: 60, height: 60)
+
+        RoundedRectangle(cornerRadius: 8)
+        .fill(Color.white).rotationEffect(.degrees(-89.42))
+        .offset(x: -1236.35, y: 656.04)
+        .frame(width: 23.16, height: 26.94)
+    }.rotationEffect(.degrees(-180))
+    .frame(width: 60, height: 60)
+
+    VStack(alignment: .trailing, spacing: 0) {
+            Rectangle()
+            .fill(Color(red: 0.50, green: 0.23, blue: 0.27, opacity: 0.50))
+            .frame(width: 200, height: 50)
+            .padding(.leading, 178)
+            .padding(.trailing, 9)
+            .padding(.top, 21)
+            .frame(width: 387, height: 71)
+            .background(Color(red: 0.07, green: 0.17, blue: 0.27))
+
+            Rectangle()
+            .fill(Color(red: 0.30, green: 0.33, blue: 0.68))
+            .frame(width: 387, height: 23)
+
+            Rectangle()
+            .fill(Color(red: 0.18, green: 0.42, blue: 0.78))
+            .frame(width: 401, height: 23)
+
+            Rectangle()
+            .fill(Color(red: 0.43, green: 0.69, blue: 1))
+            .frame(width: 384, height: 23)
+    }
+    .frame(maxWidth: .infinity, maxHeight: 140)
+
+    Text("Check Your Email")
+    .fontWeight(.bold)
+    .font(.largeTitle)
+
+    Text("We have sent the reset password to the email address johnsmith@outlook.com")
+    .font(.caption)
+    .multilineTextAlignment(.center)
+    .frame(width: 314, alignment: .top)
+    .lineSpacing(19.20)
+
+    Text("BACK TO LOGIN")
+    .fontWeight(.bold)
+    .font(.subheadline)
+    .tracking(0.84)
+    .padding(.vertical, 16)
+    .padding(.leading, 102)
+    .padding(.trailing, 99)
+    .frame(width: 317, height: 50)
+    .background(Color(red: 0.07, green: 0, blue: 0.38))
+    .cornerRadius(6)
+    .shadow(radius: 62, y: 4)
+    .frame(width: 317, height: 50)
+
+    Text("You have not received the email?  Resend")
+    .font(.caption)
+    .lineSpacing(19.20)
+}
+.padding(.bottom, 219)
+.frame(width: 375, height: 812)
+.background(Color(red: 0.95, green: 0.95, blue: 0.95))
+.cornerRadius(30)
+
+// Successfully
+VStack(spacing: 24.33) {
+    Text("Successfully")
+    .fontWeight(.bold)
+    .font(.largeTitle)
+
+    Text("Your password has been updated, please change your password regularly to avoid this happening")
+    .font(.caption)
+    .multilineTextAlignment(.center)
+    .frame(width: 305, alignment: .top)
+    .lineSpacing(19.20)
+
+    Text("CONTINUE")
+    .fontWeight(.bold)
+    .font(.subheadline)
+    .frame(width: 83, alignment: .topLeading)
+    .tracking(0.84)
+    .padding(.horizontal, 117)
+    .padding(.top, 17)
+    .padding(.bottom, 15)
+    .frame(width: 317, height: 50)
+    .background(Color(red: 0.07, green: 0, blue: 0.38))
+    .cornerRadius(6)
+    .shadow(radius: 62, y: 4)
+    .frame(width: 317, height: 50)
+
+    Text("BACK TO LOGIN")
+    .fontWeight(.bold)
+    .font(.subheadline)
+    .frame(width: 122, alignment: .topLeading)
+    .tracking(0.84)
+    .padding(.leading, 98)
+    .padding(.trailing, 97)
+    .padding(.top, 17)
+    .padding(.bottom, 15)
+    .frame(width: 317, height: 50)
+    .background(Color(red: 0.84, green: 0.80, blue: 1))
+    .cornerRadius(6)
+    .frame(width: 317, height: 50)
+}
+.padding(.leading, 25)
+.padding(.trailing, 29)
+.padding(.top, 295)
+.padding(.bottom, 243)
+.frame(width: 375, height: 812)
+.background(Color(red: 0.95, green: 0.95, blue: 0.95))
+.cornerRadius(30)
