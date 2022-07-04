@@ -1,0 +1,85 @@
+ZStack {
+    VStack(spacing: 321) {
+            RoundedRectangle(cornerRadius: 8)
+            .fill(Color(red: 0.50, green: 0.23, blue: 0.27, opacity: 0.50)).rotationEffect(.degrees(-180))
+            .frame(width: 18.21, height: 0)
+            .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.white, lineWidth: 1.50))
+
+            Rectangle()
+            .frame(width: 24, height: 24)
+    }
+    .offset(x: -155.50, y: -364)
+    .frame(width: 24, height: 24)
+
+    VStack(spacing: 3) {
+        Ellipse()
+        .fill(Color.white)
+        .frame(width: 4, height: 4)
+
+        Ellipse()
+        .fill(Color.white)
+        .frame(width: 4, height: 4)
+
+        Ellipse()
+        .fill(Color.white)
+        .frame(width: 4, height: 4)
+    }
+    .padding(.horizontal, 10)
+    .padding(.vertical, 3)
+    .frame(width: 24, height: 24)
+    .offset(x: 155.50, y: -364)
+    .frame(width: 24, height: 24)
+
+    Text("Salary")
+    .font(.subheadline)
+    .offset(x: -132.50, y: -128)
+
+    Text("Job Type")
+    .font(.subheadline)
+    .offset(x: 4.50, y: -128)
+
+    Text("Postion")
+    .font(.subheadline)
+    .offset(x: 101.50, y: -128)
+
+    Text("APPLY NOW")
+    .fontWeight(.bold)
+    .font(.subheadline)
+    .frame(width: 87, height: 17.64, alignment: .topLeading)
+    .tracking(0.84)
+    .padding(.vertical, 16)
+    .padding(.leading, 93)
+    .padding(.trailing, 90)
+    .frame(width: 270, height: 49)
+    .background(Color(red: 0.07, green: 0, blue: 0.38))
+    .cornerRadius(8)
+    .shadow(radius: 62, y: 4)
+    .offset(x: -4.50, y: 287.50)
+    .frame(width: 270, height: 49)
+
+    Text("Investment Report\nNon Marketable Account Summary\nMarketable Account Summary\nCapital Call Distributions\nStatement of Changes\nCost Accounting Report\nCost And Market Value\nAudit Report\nPartnership Lifestyle Report\nBatch Reporting ")
+    .fontWeight(.bold)
+    .font(.callout)
+    .frame(width: 271, height: 415, alignment: .topLeading)
+    .offset(x: 0, y: 107.50)
+
+    Text("Reporting")
+    .fontWeight(.bold)
+    .font(.callout)
+    .frame(width: 76, height: 17.54, alignment: .topLeading)
+    .padding(.vertical, 39)
+    .padding(.leading, 147)
+    .padding(.trailing, 152)
+    .frame(width: 375, height: 95.22)
+    .background(Color(red: 0.95, green: 0.95, blue: 0.95))
+    .offset(x: 0, y: -232.39)
+    .frame(width: 375, height: 95.22)
+
+    RoundedRectangle(cornerRadius: 48)
+    .fill(Color(red: 0.50, green: 0.23, blue: 0.27, opacity: 0.50))
+    .offset(x: -133, y: -233.50)
+    .frame(width: 77, height: 79)
+}
+.frame(width: 375, height: 812)
+.background(Color(red: 0.03, green: 0.11, blue: 0.35))
+.cornerRadius(30)
