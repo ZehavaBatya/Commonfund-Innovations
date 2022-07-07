@@ -1,0 +1,551 @@
+Container(
+    width: 1600,
+    height: 2787,
+    gradient: LinearGradient(begin: Alignment.centerLeft, end: Alignment.centerRight, colors: [Color(0xff2947a9), Colors.white], ),
+    child: Stack(
+        children:[
+            Positioned(
+                left: 76,
+                top: 99,
+                child: Container(
+                    width: 1274,
+                    height: 307,
+                    child: FlutterLogo(size: 307),
+                ),
+            ),
+            Positioned(
+                left: 76,
+                top: 372,
+                child: Container(
+                    width: 1269,
+                    height: 2289,
+                    color: Colors.white,
+                    padding: const EdgeInsets.only(top: 151, bottom: 61, ),
+                    child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children:[
+                            SizedBox(
+                                width: 456,
+                                child: Text(
+                                    "We share common values.",
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 52.68,
+                                        fontFamily: "Work Sans",
+                                        fontWeight: FontWeight.w600,
+                                    ),
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Container(
+                                width: 270.91,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(1.46),
+                                    boxShadow: [
+                                        BoxShadow(
+                                            color: Color(0x3f000000),
+                                            blurRadius: 4,
+                                            offset: Offset(0, 4),
+                                        ),
+                                    ],
+                                    color: Color(0xff2947a9),
+                                ),
+                                padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 12, ),
+                                child: Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children:[
+                                        Text(
+                                            "Submit your thoughts",
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 13.17,
+                                                fontFamily: "Work Sans",
+                                                fontWeight: FontWeight.w600,
+                                            ),
+                                        ),
+                                    ],
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Text(
+                                "Operation IIP ",
+                                style: TextStyle(
+                                    color: Color(0xff282d3d),
+                                    fontSize: 26.34,
+                                    fontFamily: "Work Sans",
+                                    fontWeight: FontWeight.w700,
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Text(
+                                "I",
+                                style: TextStyle(
+                                    color: Color(0xff282d3d),
+                                    fontSize: 26.34,
+                                    fontFamily: "Work Sans",
+                                    fontWeight: FontWeight.w700,
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            SizedBox(
+                                width: 394.40,
+                                child: Text(
+                                    "nvesting",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 14.63,
+                                    ),
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Text(
+                                "I",
+                                style: TextStyle(
+                                    color: Color(0xff282d3d),
+                                    fontSize: 26.34,
+                                    fontFamily: "Work Sans",
+                                    fontWeight: FontWeight.w700,
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            SizedBox(
+                                width: 394.40,
+                                child: Text(
+                                    "n",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 14.63,
+                                    ),
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Text(
+                                "P",
+                                style: TextStyle(
+                                    color: Color(0xff282d3d),
+                                    fontSize: 26.34,
+                                    fontFamily: "Work Sans",
+                                    fontWeight: FontWeight.w700,
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Text(
+                                "eople",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                    color: Color(0xff282d3d),
+                                    fontSize: 14.63,
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            SizedBox(
+                                width: 548,
+                                child: Text(
+                                    "Operation IIP stands for Investing In People and is in the beginning stages to allow colleagues to express their ideas for creating a more diverse workforce. Taking action is crucial in order to create lasting social change. With the input from your fellow peers, we can merge together to form conversations and plan for a brighter future at Commonfund. Diversity does not simply mean what is on the outside or externally. Having an internal grasp of Commonfund’s culture no matter race, ethnicity, gender, nationality, sexual orientation, and religion has multiple benefits.  ",
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 14.63,
+                                    ),
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Container(
+                                width: 200.64,
+                                height: 217.18,
+                                child: Stack(
+                                    children:[Positioned.fill(
+                                        child: Align(
+                                            alignment: Alignment.bottomRight,
+                                            child: Container(
+                                                width: 169,
+                                                height: 87.68,
+                                                decoration: BoxDecoration(
+                                                    borderRadius: BorderRadius.circular(8),
+                                                    border: Border.all(color: Colors.white, width: 1, ),
+                                                    color: Color(0xff152030),
+                                                ),
+                                            ),
+                                        ),
+                                    ),
+                                    Positioned.fill(
+                                        child: Align(
+                                            alignment: Alignment.bottomRight,
+                                            child: Container(
+                                                width: 149.02,
+                                                height: 85,
+                                                decoration: BoxDecoration(
+                                                    borderRadius: BorderRadius.circular(8),
+                                                    border: Border.all(color: Colors.white, width: 1, ),
+                                                    color: Color(0xff152030),
+                                                ),
+                                            ),
+                                        ),
+                                    ),
+                                    Positioned.fill(
+                                        child: Align(
+                                            alignment: Alignment.bottomRight,
+                                            child: Container(
+                                                width: 85,
+                                                height: 55.33,
+                                                decoration: BoxDecoration(
+                                                    borderRadius: BorderRadius.circular(8),
+                                                    border: Border.all(color: Colors.white, width: 1, ),
+                                                    color: Color(0xff152030),
+                                                ),
+                                            ),
+                                        ),
+                                    ),
+                                    Positioned.fill(
+                                        child: Align(
+                                            alignment: Alignment.bottomRight,
+                                            child: Container(
+                                                width: 171.89,
+                                                height: 217.18,
+                                                child: Column(
+                                                    mainAxisSize: MainAxisSize.min,
+                                                    mainAxisAlignment: MainAxisAlignment.end,
+                                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                                    children:[
+                                                        Container(
+                                                            width: 23.32,
+                                                            height: 32,
+                                                            child: Row(
+                                                                mainAxisSize: MainAxisSize.min,
+                                                                mainAxisAlignment: MainAxisAlignment.end,
+                                                                crossAxisAlignment: CrossAxisAlignment.end,
+                                                                children:[
+                                                                    Text(
+                                                                        "546",
+                                                                        textAlign: TextAlign.right,
+                                                                        style: TextStyle(
+                                                                            color: Color(0xff152030),
+                                                                            fontSize: 12,
+                                                                        ),
+                                                                    ),
+                                                                    SizedBox(width: 0),
+                                                                    Container(
+                                                                        width: 1.32,
+                                                                        height: 21,
+                                                                        decoration: BoxDecoration(
+                                                                            borderRadius: BorderRadius.circular(8),
+                                                                            border: Border.all(color: Color(0xff152030), width: 1, ),
+                                                                            color: Color(0x7f7f3a44),
+                                                                        ),
+                                                                    ),
+                                                                ],
+                                                            ),
+                                                        ),
+                                                        SizedBox(height: 74.15),
+                                                        Container(
+                                                            width: 37.78,
+                                                            height: 15,
+                                                            child: Row(
+                                                                mainAxisSize: MainAxisSize.min,
+                                                                mainAxisAlignment: MainAxisAlignment.end,
+                                                                crossAxisAlignment: CrossAxisAlignment.center,
+                                                                children:[
+                                                                    Container(
+                                                                        width: 19.78,
+                                                                        height: 7.89,
+                                                                        decoration: BoxDecoration(
+                                                                            borderRadius: BorderRadius.circular(8),
+                                                                            border: Border.all(color: Color(0xff152030), width: 1, ),
+                                                                            color: Color(0x7f7f3a44),
+                                                                        ),
+                                                                    ),
+                                                                    Text(
+                                                                        "121",
+                                                                        style: TextStyle(
+                                                                            color: Color(0xff152030),
+                                                                            fontSize: 12,
+                                                                        ),
+                                                                    ),
+                                                                ],
+                                                            ),
+                                                        ),
+                                                        SizedBox(height: 74.15),
+                                                        Container(
+                                                            width: 27.59,
+                                                            height: 21.88,
+                                                            child: Row(
+                                                                mainAxisSize: MainAxisSize.min,
+                                                                mainAxisAlignment: MainAxisAlignment.end,
+                                                                crossAxisAlignment: CrossAxisAlignment.center,
+                                                                children:[
+                                                                    Text(
+                                                                        "414",
+                                                                        textAlign: TextAlign.right,
+                                                                        style: TextStyle(
+                                                                            color: Color(0xff152030),
+                                                                            fontSize: 12,
+                                                                        ),
+                                                                    ),
+                                                                    Container(
+                                                                        width: 7.59,
+                                                                        height: 19.88,
+                                                                        decoration: BoxDecoration(
+                                                                            borderRadius: BorderRadius.circular(8),
+                                                                            border: Border.all(color: Color(0xff152030), width: 1, ),
+                                                                            color: Color(0x7f7f3a44),
+                                                                        ),
+                                                                    ),
+                                                                ],
+                                                            ),
+                                                        ),
+                                                    ],
+                                                ),
+                                            ),
+                                        ),
+                                    ),],
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            SizedBox(
+                                width: 394.40,
+                                child: Text(
+                                    "*Valid data will be updated in the future",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 14.63,
+                                    ),
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Container(
+                                width: 1269,
+                                height: 412,
+                                color: Color(0xffe0e2ea),
+                                padding: const EdgeInsets.only(left: 380, right: 364, top: 38, bottom: 37, ),
+                                child: Column(
+                                    mainAxisSize: MainAxisSize.min,
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    crossAxisAlignment: CrossAxisAlignment.end,
+                                    children:[
+                                        Text(
+                                            "What idea do you propose?",
+                                            style: TextStyle(
+                                                color: Color(0xff282d3d),
+                                                fontSize: 26.34,
+                                                fontFamily: "Work Sans",
+                                                fontWeight: FontWeight.w700,
+                                            ),
+                                        ),
+                                        SizedBox(height: 10.29),
+                                        SizedBox(
+                                            width: 394.40,
+                                            child: Text(
+                                                "Join the conversation to support our Diversity, Equity and Inclusion mission. ",
+                                                textAlign: TextAlign.center,
+                                                style: TextStyle(
+                                                    color: Color(0xff282d3d),
+                                                    fontSize: 14.63,
+                                                ),
+                                            ),
+                                        ),
+                                        SizedBox(height: 10.29),
+                                        Container(
+                                            width: 254.23,
+                                            decoration: BoxDecoration(
+                                                borderRadius: BorderRadius.circular(2.93),
+                                                border: Border.all(color: Color(0xffe0e2ea), width: 0.73, ),
+                                                color: Colors.white,
+                                            ),
+                                            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 7, ),
+                                            child: Row(
+                                                mainAxisSize: MainAxisSize.min,
+                                                mainAxisAlignment: MainAxisAlignment.start,
+                                                crossAxisAlignment: CrossAxisAlignment.center,
+                                                children:[
+                                                    Text(
+                                                        "Your Name*",
+                                                        style: TextStyle(
+                                                            fontSize: 13.17,
+                                                        ),
+                                                    ),
+                                                ],
+                                            ),
+                                        ),
+                                        SizedBox(height: 10.29),
+                                        Container(
+                                            width: 256.23,
+                                            decoration: BoxDecoration(
+                                                borderRadius: BorderRadius.circular(2.93),
+                                                border: Border.all(color: Color(0xffe0e2ea), width: 0.73, ),
+                                                color: Colors.white,
+                                            ),
+                                            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 7, ),
+                                            child: Row(
+                                                mainAxisSize: MainAxisSize.min,
+                                                mainAxisAlignment: MainAxisAlignment.start,
+                                                crossAxisAlignment: CrossAxisAlignment.center,
+                                                children:[
+                                                    Text(
+                                                        "Email*",
+                                                        style: TextStyle(
+                                                            fontSize: 13.17,
+                                                        ),
+                                                    ),
+                                                ],
+                                            ),
+                                        ),
+                                        SizedBox(height: 10.29),
+                                        Container(
+                                            width: 525,
+                                            height: 99,
+                                            decoration: BoxDecoration(
+                                                borderRadius: BorderRadius.circular(2.93),
+                                                border: Border.all(color: Color(0xffe0e2ea), width: 0.73, ),
+                                                color: Colors.white,
+                                            ),
+                                            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 7, ),
+                                            child: Row(
+                                                mainAxisSize: MainAxisSize.min,
+                                                mainAxisAlignment: MainAxisAlignment.start,
+                                                crossAxisAlignment: CrossAxisAlignment.start,
+                                                children:[
+                                                    Text(
+                                                        "Message",
+                                                        style: TextStyle(
+                                                            color: Color(0xffa3aac1),
+                                                            fontSize: 13.17,
+                                                        ),
+                                                    ),
+                                                ],
+                                            ),
+                                        ),
+                                        SizedBox(height: 10.29),
+                                        SizedBox(
+                                            width: 188,
+                                            child: Text(
+                                                "* indicates a required field",
+                                                style: TextStyle(
+                                                    fontSize: 11.71,
+                                                ),
+                                            ),
+                                        ),
+                                        SizedBox(height: 10.29),
+                                        Container(
+                                            width: 265.91,
+                                            decoration: BoxDecoration(
+                                                borderRadius: BorderRadius.circular(1.46),
+                                                boxShadow: [
+                                                    BoxShadow(
+                                                        color: Color(0x3f000000),
+                                                        blurRadius: 4,
+                                                        offset: Offset(0, 4),
+                                                    ),
+                                                ],
+                                                color: Color(0xff2947a9),
+                                            ),
+                                            padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 12, ),
+                                            child: Row(
+                                                mainAxisSize: MainAxisSize.min,
+                                                mainAxisAlignment: MainAxisAlignment.center,
+                                                crossAxisAlignment: CrossAxisAlignment.center,
+                                                children:[
+                                                    Text(
+                                                        "Submit",
+                                                        textAlign: TextAlign.center,
+                                                        style: TextStyle(
+                                                            color: Colors.white,
+                                                            fontSize: 13.17,
+                                                            fontFamily: "Work Sans",
+                                                            fontWeight: FontWeight.w600,
+                                                        ),
+                                                    ),
+                                                ],
+                                            ),
+                                        ),
+                                    ],
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            SizedBox(
+                                width: 394.40,
+                                child: Text(
+                                    "RELATED LINKS",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 14.63,
+                                    ),
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            SizedBox(
+                                width: 394.40,
+                                child: Text(
+                                    "QUICK LINKS",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 14.63,
+                                    ),
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            Container(
+                                width: 210,
+                                height: 38,
+                                child: FlutterLogo(size: 38),
+                            ),
+                            SizedBox(height: 44.08),
+                            SizedBox(
+                                width: 394.40,
+                                child: Text(
+                                    "Glossary\nImportant Disclosures\nPrivacy Notice",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 14.63,
+                                    ),
+                                ),
+                            ),
+                            SizedBox(height: 44.08),
+                            SizedBox(
+                                width: 394.40,
+                                child: Text(
+                                    "Investment Strategy\nWho We Serve\nAbout \nResearch Center\nInstitute",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        color: Color(0xff282d3d),
+                                        fontSize: 14.63,
+                                    ),
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 76,
+                top: 1354,
+                child: Opacity(
+                    opacity: 0.80,
+                    child: Container(
+                        width: 1274,
+                        height: 259,
+                        child: FlutterLogo(size: 259),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 71,
+                top: 415,
+                child: Container(
+                    width: 1274,
+                    height: 405,
+                    child: FlutterLogo(size: 405),
+                ),
+            ),
+        ],
+    ),
+)
