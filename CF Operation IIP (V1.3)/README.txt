@@ -7,12 +7,12 @@ Commonfund (CF) Operation Investing In Equity and Inclusion is a brainstorming t
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Visual Studio Code
+**Tech used:** Dart, Flutter, Tailwind, HTML, CSS, JavaScript, Visual Studio Code
 
 ## Optimizations
 
-An interactive API is developed for the landing page with a typable box option and submit button.
+A completely different trajectory changed for my project in terms of the layout. The landing page is longer in length with more sections and features (pictures, writing, graphs, and interactive writing form). 
 
 ## Lessons Learned:
 
-Get outside the comfort zone by building a new project with the building blocks at your disposal. 
+Learning different terminology languages is thrilling, yet overwhelming. No challenge is too large.
