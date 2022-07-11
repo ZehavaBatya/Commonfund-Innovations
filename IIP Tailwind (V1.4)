@@ -1,0 +1,61 @@
+<div class="relative bg-gradient-to-r from-blue-800 to-white" style="width: 1600px; height: 2787px;">
+    <img class="absolute" style="width: 1274px; height: 307px; left: 76px; top: 99px;" src="https://via.placeholder.com/1274x307"/>
+    <div class="inline-flex flex-col space-y-11 items-end justify-start pt-36 pb-16 absolute bg-white shadow" style="width: 1269px; height: 2289px; left: 76px; top: 372px;">
+        <p class="text-5xl font-semibold text-gray-800" style="width: 456px;">We share common values.</p>
+        <div class="inline-flex items-center justify-center w-64 px-4 py-3 bg-blue-800 shadow rounded-sm">
+            <p class="text-sm font-semibold text-center text-white">Submit your thoughts</p>
+        </div>
+        <p class="text-2xl font-bold text-gray-800">Operation IIP </p>
+        <p class="text-2xl font-bold text-gray-800">I</p>
+        <p class="text-sm text-center text-gray-800" style="width: 394.40px;">nvesting</p>
+        <p class="text-2xl font-bold text-gray-800">I</p>
+        <p class="text-sm text-center text-gray-800" style="width: 394.40px;">n</p>
+        <p class="text-2xl font-bold text-gray-800">P</p>
+        <p class="text-sm text-center text-gray-800">eople</p>
+        <p class="text-sm text-gray-800" style="width: 548px;">Operation IIP stands for Investing In People and is in the beginning stages to allow colleagues to express their ideas for creating a more diverse workforce. Taking action is crucial in order to create lasting social change. With the input from your fellow peers, we can merge together to form conversations and plan for a brighter future at Commonfund. Diversity does not simply mean what is on the outside or externally. Having an internal grasp of Commonfund’s culture no matter race, ethnicity, gender, nationality, sexual orientation, and religion has multiple benefits.  </p>
+        <div class="relative" style="width: 200.64px; height: 217.18px;">
+            <div class="w-44 h-20 absolute right-0 bottom-0 bg-gray-900 border rounded-lg border-white"/>
+            <div class="w-36 h-20 absolute right-0 bottom-0 bg-gray-900 border rounded-lg border-white"/>
+            <div class="w-20 h-14 absolute right-0 bottom-0 bg-gray-900 border rounded-lg border-white"/>
+            <div class="inline-flex flex-col space-y-20 items-start justify-end w-44 h-56 absolute right-0 bottom-0">
+                <div class="inline-flex space-x-0.5 items-end justify-end w-6 h-8">
+                    <p class="text-xs text-right text-gray-900">546</p>
+                    <div class="w-0.5 h-5 bg-pink-900 bg-opacity-50 border rounded-lg border-gray-900"/>
+                </div>
+                <div class="inline-flex items-center justify-end w-9 h-4">
+                    <div class="w-5 h-2 bg-pink-900 bg-opacity-50 border rounded-full border-gray-900"/>
+                    <p class="text-xs text-gray-900">121</p>
+                </div>
+                <div class="inline-flex items-center justify-end w-1/6 h-5">
+                    <p class="text-xs text-right text-gray-900">414</p>
+                    <div class="w-2 h-5 bg-pink-900 bg-opacity-50 border rounded-lg border-gray-900"/>
+                </div>
+            </div>
+        </div>
+        <p class="text-sm text-center text-gray-800" style="width: 394.40px;">*Valid data will be updated in the future</p>
+        <div class="flex flex-col space-y-2.5 items-end justify-start px-96 py-9 bg-gray-200" style="width: 1269px; height: 412px;">
+            <p class="text-2xl font-bold text-gray-800">What idea do you propose?</p>
+            <p class="text-sm text-center text-gray-800" style="width: 394.40px;">Join the conversation to support our Diversity, Equity and Inclusion mission. </p>
+            <div class="inline-flex items-center justify-start w-64 px-1.5 py-1.5 bg-white border rounded-sm border-gray-200">
+                <p class="text-sm">Your Name*</p>
+            </div>
+            <div class="inline-flex items-center justify-start w-64 px-1.5 py-1.5 bg-white border rounded-sm border-gray-200">
+                <p class="text-sm">Email*</p>
+            </div>
+            <div class="inline-flex items-start justify-start px-1.5 py-1.5 bg-white border rounded-sm border-gray-200" style="width: 525px; height: 99px;">
+                <p class="text-sm text-gray-400">Message</p>
+            </div>
+            <p class="w-48 text-xs">* indicates a required field</p>
+            <div class="inline-flex items-center justify-center w-1/2 px-4 py-3 bg-blue-800 shadow rounded-sm">
+                <p class="text-sm font-semibold text-center text-white">Submit</p>
+            </div>
+        </div>
+        <p class="text-sm text-center text-gray-800" style="width: 394.40px;">RELATED LINKS</p>
+        <p class="text-sm text-center text-gray-800" style="width: 394.40px;">QUICK LINKS</p>
+        <img class="w-1/6 h-9" src="https://via.placeholder.com/210x38"/>
+        <p class="text-sm text-center text-gray-800" style="width: 394.40px;">Glossary<br/>Important Disclosures<br/>Privacy Notice</p>
+        <p class="text-sm text-center text-gray-800" style="width: 394.40px;">Investment Strategy<br/>Who We Serve<br/>About <br/>Research Center<br/>Institute</p>
+    </div>
+    <img class="opacity-80 absolute" style="width: 1274px; height: 259px; left: 76px; top: 1354px;" src="https://via.placeholder.com/1274x259"/>
+    <img class="absolute" style="width: 1274px; height: 405px; left: 71px; top: 415px;" src="https://via.placeholder.com/1274x405"/>
+</div>
