@@ -22,7 +22,7 @@ function  V14(props) {
         operationIipStands,
         relatedLinks,
         glossaryImportantD,
-        investmentStrategy
+        investmentStrategy,
         operationIip,
         price,
         i1,
@@ -81,6 +81,7 @@ function  V14(props) {
             <rectangle21></rectangle21>
             <OperationIIPStands>{operationIipStands}</OperationIIPStands>
             <RELATEDLINKS>{relatedlinks}</RELATEDLINKS>
+            <QUICKLINKS>{quickLinks}</QUICKLINKS>
             <glossaryImportantD>{glossaryImportantD}</glossaryImportantD>
             <investmentStrategy>{investmentStrategy}</investmentStrategy>
             <OperationIIP>{operationIip}</OperationIIP>
@@ -92,34 +93,45 @@ function  V14(props) {
             <diversityInclusionKeyBankCulture1 src= {diversityInclusionKeyBankCulture1} />
             <Title>{title}</Title>
             <CTA>
+                <whatIdeaDoYouPropose>{number5}</whatIdeaDoYouPropose>
+                <joinTheConversatio>{number4}</joinTheConversatio>
+                <OverlapGroup>
                 <FormElement />
                 <FormElement2 />
-                <FormElement3 />
-                <FlexCol>
-                    <whatIdeaDoYouPropose>{whatIdeaDoYouPropose}</whatIdeaDoYouPropose>
-                    <joinTheConversatio>{joinTheConversatio}</joinTheConversatio>
-                </FlexCol>
-                <Button>{button1Props.children}</Button>
-                <IndicatesARequiredField>
-                    <span className="worksans-normal-guardsman-red-11-7px">{spanText}</span>
-                    <span className="worksans-normal-black-11-7px">{spanText2}</span>
+                <Text1>
+                    <span className="worksans-normal-guardsman-red-11-7px">{spanText4}</span>
+                    <span className="worksans-normal-black-11-7px">{spanText5}</span>
+                </Text1>
+                <Your Name name="yourname" placeholder={inputPlaceholder1} type={inputType1} required />
                     <Span2>{spanText3}</Span2>
-                </IndicatesARequiredField>
                 <OverlapGroup>
-                    <Text1>
-                        <span className="worksans-normal-guardsman-red-11-7px">{spanText4}</span>
-                        <span className="worksans-normal-black-11-7px">{spanText5}</span>
-                    </Text1>
                     <Email name="email" placeholder={inputPlaceholder1} type={inputType1} required />
                         <Text2>{text2}</Text2>
                     </OverlapGroup>
                     <TypeYourMessageHere name="typeyourmessagehere" placeholder={inputPlaceholder3} type={inputType3} required />
                 </OverlapGroup>
+                <OverlapGroup1>
+                    <FormElement3 />
+                    <TypeYourMessageHere
+                    name="typeyourmessagehere"
+                    placeholder={inputPlaceholder3}
+                    type={inputType3}
+                    required
+                  />
+                </OverlapGroup1>
+                <IndicatesARequiredField>
+                    <span className="worksans-normal-guardsman-red-11-7px">{spanText1}</span>
+                    <span className="worksans-normal-black-11-7px">{spanText2}</span>
+                </IndicatesARequiredField>
+                <Button>{button1Props.children}</Button>
             </CTA>
             <Nvesting>{nvesting}</Nvesting>
             <validDataWillBe>{validDataWillBe}</validDataWillBe>
             <Eople>{eople}</Eople>
             <N>{n}</N>
+            <Button className={button2Props.className}>
+                {buttpn2Props.children}
+            </Button>
             <logoCommonfundCOLOR21 src={logoCommonfundColor21} />
             <GroupContainer>
                 <Group1 src="group.svg" />
@@ -219,7 +231,7 @@ const OperationIIPStands = styled.p`
     ${WorksansNormalEbonyClay146px}
     position: absolute;
     width: 701px;
-    top: 701px;
+    top: 1094px;
     left: 852px;
     letter-spacing: 0;
  ';
@@ -994,3 +1006,322 @@ const Number2 = styled.div`
         margin-left: 0;
     }
 `;
+
+function Group2(props) {
+    const { number, className } = props;
+
+    return (
+      <Group className={'group-19 ${className || ""}'}>
+        <Vector className="vector-8" src="vector-5.svg" />
+        <Number className="number-6">
+            {number}
+        </Number>
+      </Group>
+    );
+}
+
+const Group = styled.div`
+    width: 8px;
+    margin-left: 55px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    align-items: flex-start;
+    min-height: 17px;
+
+    &.group-19.group-20 {
+        width: 9px;
+    }
+`;
+
+const Vector = styled.img`
+    width: 1px;
+    height: 5px;
+    margin: 2.29px;
+`;
+
+const Number = styled.div`
+    ${InterNormalBlack12px}
+    width: 6px;
+    min-height: 12px;
+    text-align: center;
+    letter-spacing: 0;
+`;
+
+const Number1 = styled.div`
+    ${InterNormalBlack12px}
+
+    .group-11.group-13 & {
+        margin-left: 0;
+    }
+`;
+
+function Group3(props) {
+    const { number, className } = props;
+
+    return (
+      <Group className={'group-21 ${className || ""}'}>
+        <Number className="number-7">
+            {number}
+        </Number>
+        <Vector className="vector-9" src="vector-18.svg" />
+      </Group>
+    );
+}
+
+const Group = styled.div`
+    height: 12px;
+    margin-top: 0;
+    margin-right: -2px;
+    display: flex;
+    align-items: flex-end;
+    min-width: 34px;
+
+    &.group-21.group-22{
+        margin-top: 20px;
+        min-width: 35px;
+    }
+
+    &.group-21.group-23 {
+        margin-top: 20px;
+        min-width: 35px;
+    }
+`;
+
+const Number = styled.div`
+    ${InterNormalBlack12px}
+    width: 21px;
+    min-height: 12px;
+    text-align: right; 
+    letter-spacing: 0;
+`;
+
+const Vector = styled.img`
+    width: 6px;
+    height: 1px;
+    margin-left: 5px; 
+    margin-bottom: 1.93px;
+`;
+
+const Number1 = styled.div`
+    ${InterNormalBlack12px}
+
+    .group-21.group-22 & {
+        width: 22px;
+    }
+`;
+
+const Number2 = styled.div`
+    ${InterNormalBlack12px}
+
+    .group-21.group-23 & {
+        width: 22px;
+    }
+`;
+
+export const InterNormalBlack12px = css`
+    color: var(--black);
+    font-family: var(--font-familt-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+`;
+
+export const WorksandsNormalEbonyClay146px = css`
+    color: var(--neutral800);
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+`;
+
+export const WorksansNormalGuardsmanRed117px = css`
+    color: var(--guardsman-red);
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+`;
+
+export const InterNormalGrayChateau132px = css`
+    color: var(--neutral300);
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+`
+export const InterNormalMirage12px = css`
+    color: var(--mirage);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+`
+export const WorksansNormalWhite117px = css`
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+`;
+
+export const WorksansNormalBlack117px = css`
+    color: var(--black);
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+`;
+
+export const WorksansSemiBoldWhite132px = css`
+    color: var(--neutralwhite);
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    font-style: normal;
+`;
+
+export const Border1pxNeutral100 = css`
+    border: 1px solid var(--neutral100);
+`;
+const button1Data = {
+    children: "Submit",
+};
+
+const button2Data = {
+    children: "Submit your thoughts",
+    className: "button-1",
+};
+
+const group1Data = {
+    number: "0",
+};
+
+const group21Data = {
+    number: "1",
+};
+
+const group3Data = {
+    number: "2",
+    className: "group-12",
+};
+
+const group5Data = {
+    number: "4",
+    className: "group-14",
+};
+
+const group6Data = {
+    number: "5",
+    className: "group-15",
+};
+
+const group7Data = {
+    number: "6",
+    className: "group-16",
+};
+const group22Data = {
+    number: "7",
+    className: "group-20",
+};
+
+const group8Data = {
+    number: "7",
+    className: "group-17",
+};
+
+const group9Data = {
+    number: "9",
+    className: "group-18",
+};
+
+const group32Data = {
+    number: "750",
+};
+
+const group33Data = {
+    number: "500",
+    className: "group-22",
+};
+
+const group34Data = {
+    number: "250",
+    className: "group-23",
+};
+
+const v14Data = {
+    commonfundBanner1479739838306: "commonfund-banner-1479739838306-1.png",
+    operationIipStands:
+        "Operation IIP stands for Investing In People and is in the beginning stages to allow colleagues to express their ideas for creating a more diverse workforce. Taking action is crucial in order to create lasting social change. With the input from your fellow peers, we can merge together to form conversations and plan for a brighter future at Commonfund. Diversity does not simply mean what is on the outside or externally. Having an internal grasp of Commonfund's culture no matter race, ethnicity, gender, nationality, sexual orientation, and religion has multiple beneifts.",
+    relatedLinks:"RELATED LINKS"
+    quickLinks: "QUICK LINKS",
+    glossaryImportantD: (
+        <React.Fragment>
+            Glossary 
+            <br />
+            Important Disclosures
+            <br />
+            Privacy Notice 
+        </React.Fragment>
+    ),
+    investmentStrategy: (
+        <React.Fragment>
+            investment Strategy
+            <br />
+            Who We Serve
+            <br />
+            About <br />
+            Research Center
+            <br />
+            Institute 
+        </React.Fragment>
+    ),
+    operationIip: "Operation IIP",
+    price: "P",
+    i1: "I",
+    i2: "I",
+    rectangle22: "rectangle-22.png",
+    diversityInclusionKeyBankCulture1: "diversity-inclusion-key-bank-culture-1.png",
+    title: "We share common values.",
+    number5: "What idea do you propose?",
+    number4: "Join the conversation to support our Diversity, Equity and Inclusion mission.",
+    spanText4: "*",
+    spanText5: "",
+    inputType1: "text",
+    inputPlaceholder1: "Your Name",
+    inputType2: "email",
+    inputPlaceholder2: "Email",
+    number3: "*",
+    inputType3: "text",
+    inputPlaceholder3: "Message",
+    spanText1: "*",
+    spanText2: " ",
+    spanText3: "indicates a required field",
+    nvesting: "nvesting",
+    validDataWillBe: "*Valid data will be updated in the future",
+    eople: "eople",
+    n: "n",
+    logoCommonfundColor21: "logo-commonfund-color-2-1.png",
+    joinTheConversatio: "414",
+    whatIdeaDoYouPropose: "546",
+    number2: "121",
+    text2: "1000",
+    number1: "0",
+    x2000X96Nonprofit190X9301: "2000x969-nonprofit-1920x930-1.png",
+    commonfundBanner1479739838306: "commonfund-banner-1479739838306.png",
+    button1Props: button1Data,
+    button1Props: button2Data,
+    group1Props: group1Data,
+    group21Props: group21Data, 
+    group2Props: group2Data,
+    group3Props: group3Data,
+    group4Props: group4Data,
+    group5Props: group5Data,
+    group6Props: group6Data,
+    group22Props: group22Data,
+    group7Props: group7Data,
+    group8Props: group8Data,
+    group31Props: group31Data,
+    group32Props: group32Data,
+    group33Props: group33Data,
+};
