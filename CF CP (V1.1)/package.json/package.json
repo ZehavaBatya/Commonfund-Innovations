@@ -1,0 +1,1776 @@
+import React from 'react'
+import { View } from 'react-native'
+
+import styled from 'styled-components/native'
+
+const CheckYourEmail = (props) => {
+  return (
+    <View>
+      <StyledCheckYourEmail>
+        <Save>
+          <StyledText>Back to login</StyledText>
+        </Save>
+        <Text1>
+          We have sent the reset password to the email address
+          johnsmith@outlook.com
+        </Text1>
+        <Text2>
+          <Text3>
+            You have not received the email?
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text3>
+          <Text4>Resend</Text4>
+        </Text2>
+        <Text5>Check Your Email</Text5>
+        <CommonfundTopHeader>
+          <Rectangle239
+            source={require('../playground_assets/6432717e-5337-49df-9c50-dbc5445d33d2-cqxs.svg')}
+            alt="Rectangle2392323"
+          ></Rectangle239>
+          <Rectangle240
+            source={require('../playground_assets/572332e1-5238-4233-ab7a-efc26cbd0c21-61emi.svg')}
+            alt="Rectangle2402324"
+          ></Rectangle240>
+          <Rectangle241
+            source={require('../playground_assets/7d06dd1d-6518-49f0-b4d8-5627e63b60ae-shua.svg')}
+            alt="Rectangle2412325"
+          ></Rectangle241>
+          <Rectangle246
+            source={require('../playground_assets/a98d013a-21cd-41e9-ada7-7dfc6ba7cfa5-rzi.svg')}
+            alt="Rectangle2462326"
+          ></Rectangle246>
+          <Logo1
+            source={require('../playground_assets/6c0cc589-6c40-4bf6-bc66-9fd17ed303ef-xfy-200h.png')}
+            alt="Logo12327"
+          ></Logo1>
+        </CommonfundTopHeader>
+        <Group79
+          source={require('../playground_assets/3cfc0269-9206-43d7-adcb-1d17dd3d0922-6yge.svg')}
+          alt="Group792328"
+        ></Group79>
+      </StyledCheckYourEmail>
+    </View>
+  )
+}
+
+export default CheckYourEmail
+
+const StyledCheckYourEmail = styled('View')({
+  'background-color': 'rgba(243, 242, 242, 1)',
+  width: '375px',
+  'max-width': '375px',
+  height: '812px',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'box-sizing': 'border-box',
+  'border-radius': '30px',
+  'border-color': 'transparent',
+  position: 'relative',
+  overflow: 'hidden',
+})
+
+const Save = styled('View')({
+  'background-color': 'rgba(19, 1, 96, 1)',
+  width: '317px',
+  height: '50px',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'box-sizing': 'border-box',
+  'border-color': 'transparent',
+  position: 'absolute',
+  top: '493px',
+  left: '29px',
+})
+
+const StyledText = styled('span')({
+  color: 'rgba(255, 255, 255, 1)',
+  height: 'auto',
+  'font-weight': '700px',
+  'font-family': 'DM Sans',
+  'text-align': 'left',
+  'line-height': 'normal',
+  'font-size': '14px',
+  'font-style': 'normal',
+  'font-stretch': 'normal',
+  'align-self': 'auto',
+  position: 'absolute',
+  top: '16px',
+  left: '102px',
+  'text-decoration': 'none',
+})
+
+const Text1 = styled('span')({
+  color: 'rgba(81, 74, 107, 1)',
+  width: '314px',
+  height: 'auto',
+  'font-weight': '400px',
+  'font-family': 'DM Sans',
+  'text-align': 'center',
+  'line-height': '160.0000023841858%',
+  'font-size': '12px',
+  'font-style': 'normal',
+  'font-stretch': 'normal',
+  'align-self': 'auto',
+  position: 'absolute',
+  top: '406px',
+  left: '32px',
+  'text-decoration': 'none',
+})
+
+const Text2 = styled('span')({
+  color: 'rgba(21, 11, 61, 1)',
+  height: 'auto',
+  'font-weight': '400px',
+  'font-family': 'DM Sans',
+  'text-align': 'center',
+  'line-height': '160.0000023841858%',
+  'font-size': '12px',
+  'font-style': 'normal',
+  'font-stretch': 'normal',
+  'align-self': 'auto',
+  position: 'absolute',
+  top: '574px',
+  left: '73px',
+  'text-decoration': 'none',
+})
+
+const Text3 = styled('span')({
+  color: 'rgba(21, 11, 61, 1)',
+  height: 'auto',
+  'font-weight': '400px',
+  'text-align': 'center',
+  'font-style': 'normal',
+  'font-stretch': 'normal',
+  'align-self': 'auto',
+  'text-decoration': 'none',
+})
+
+const Text4 = styled('span')({
+  color: 'rgba(255, 146, 40, 1)',
+  height: 'auto',
+  'font-weight': '400px',
+  'text-align': 'center',
+  'font-style': 'normal',
+  'font-stretch': 'normal',
+  'align-self': 'auto',
+  'text-decoration': 'underline',
+})
+
+const Text5 = styled('span')({
+  color: 'rgba(13, 1, 64, 1)',
+  height: 'auto',
+  'font-weight': '700px',
+  'font-family': 'El Messiri',
+  'text-align': 'left',
+  'line-height': 'normal',
+  'font-size': '40px',
+  'font-style': 'normal',
+  'font-stretch': 'normal',
+  'align-self': 'auto',
+  position: 'absolute',
+  top: '323px',
+  left: '21px',
+  'text-decoration': 'none',
+})
+
+const CommonfundTopHeader = styled('View')({
+  width: '401px',
+  height: '140px',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'box-sizing': 'border-box',
+  'border-color': 'transparent',
+  position: 'absolute',
+  top: '-12px',
+  left: '-16px',
+})
+
+const Rectangle239 = styled('Image')({
+  'background-color': 'rgba(75, 85, 174, 1)',
+  width: '387px',
+  height: '23px',
+  'box-sizing': 'border-box',
+  'border-color': 'transparent',
+  position: 'absolute',
+  top: '71px',
+  left: '14px',
+  'object-fit': 'cover',
+})
+
+const Rectangle240 = styled('Image')({
+  'background-color': 'rgba(46, 107, 198, 1)',
+  width: '401px',
+  height: '23px',
+  'box-sizing': 'border-box',
+  'border-color': 'transparent',
+  position: 'absolute',
+  top: '94px',
+  left: '0px',
+  'object-fit': 'cover',
+})
+
+const Rectangle241 = styled('Image')({
+  'background-color': 'rgba(109, 176, 255, 1)',
+  width: '384px',
+  height: '23px',
+  'box-sizing': 'border-box',
+  'border-color': 'transparent',
+  position: 'absolute',
+  top: '117px',
+  left: '17px',
+  'object-fit': 'cover',
+})
+
+const Rectangle246 = styled('Image')({
+  'background-color': 'rgba(18, 44, 68, 1)',
+  width: '387px',
+  height: '71px',
+  'box-sizing': 'border-box',
+  'border-color': 'transparent',
+  position: 'absolute',
+  top: '0px',
+  left: '14px',
+  'object-fit': 'cover',
+})
+
+const Logo1 = styled('Image')({
+  width: '200px',
+  height: '50px',
+  'box-sizing': 'border-box',
+  'border-color': 'transparent',
+  position: 'absolute',
+  top: '21px',
+  left: '192px',
+  'object-fit': 'cover',
+})
+
+const Group79 = styled('Image')({
+  width: '60px',
+  height: '60px',
+  'box-sizing': 'border-box',
+  'border-color': 'transparent',
+  position: 'absolute',
+  top: '783px',
+  left: '89px',
+  'object-fit': 'cover',
+})
+
+import React from 'react'
+import { View } from 'react-native'
+
+import styled from 'styled-components/native'
+
+const ForgotPassword = (props) => {
+  return (
+    <View>
+      <StyledForgotPassword>
+        <Rectangle247
+          source={require('../playground_assets/61908756-e8e8-46f5-b752-91fb498774a0-k4y.svg')}
+          alt="Rectangle24722054"
+        ></Rectangle247>
+        <Rectangle243
+          source={require('../playground_assets/eeb0b768-9223-4400-9f79-c20e9cd43c66-hydk.svg')}
+          alt="Rectangle24322387"
+        ></Rectangle243>
+        <StyledText>Forgot Password?</StyledText>
+        <Group78>
+          <Text1>Back to Login</Text1>
+          <Svg
+            source={require('../playground_assets/0b84aaf9-c3a0-4400-9c5d-e7c86655f50d-sgk.svg')}
+            alt="Line122057"
+          ></Svg>
+        </Group78>
+        <CommonfundTopHeader>
+          <Rectangle239
+            source={require('../playground_assets/d5ef33ed-f7f8-416c-9cef-8158bdf9c0e7-73na.svg')}
+            alt="Rectangle23922375"
+          ></Rectangle239>
+          <Rectangle240
+            source={require('../playground_assets/b85c778a-ac23-48fc-b223-3b3bb69c85e7-k4cg.svg')}
+            alt="Rectangle24022376"
+          ></Rectangle240>
+          <Rectangle241
+            source={require('../playground_assets/2f44eb9a-79e4-4e2d-9cf2-b236b884a11b-58ic.svg')}
+            alt="Rectangle24122377"
+          ></Rectangle241>
+          <Rectangle246
+            source={require('../playground_assets/f863d42a-d251-48f4-be40-32760e750040-77gf.svg')}
+            alt="Rectangle24622378"
+          ></Rectangle246>
+          <Logo1
+            source={require('../playground_assets/2640ede9-f941-44c3-af0f-c2c3ce0adf9f-imqk-200h.png')}
+            alt="Logo122379"
+          ></Logo1>
+        </CommonfundTopHeader>
+        <IconlyBoldLock>
+          <Lock
+            source={require('../playground_assets/e5ad16af-403e-47d7-8cb1-e6c568dfbbcf-rdsb.svg')}
+            alt="Lock22381"
+          ></Lock>
+        </IconlyBoldLock>
+        <Text2>
+          Secure Access
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </Text2>
+        <Save>
+          <Text3>Reset password</Text3>
+        </Save>
+        <Text4>
+          Email
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </Text4>
+        <Group781
+          source={require('../playground_assets/cd2338e7-9b19-414f-9e74-d3d3d251c826-1u0r.svg')}
+          alt="Group7822389"
+        ></Group781>
+      </StyledForgotPassword>
+    </View>
+  )
+}
+
+export default ForgotPassword
+
+const StyledForgotPassword = styled('View')({
+  width: '375px',
+  height: '812px',
+  display: 'flex',
+  'max-width': '375px',
+  overflow: 'hidden',
+  position: 'relative',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'border-color': 'transparent',
+  'border-radius': '30px',
+  'background-color': 'rgba(243, 242, 242, 1)',
+})
+
+const Rectangle247 = styled('Image')({
+  top: '384px',
+  left: '32px',
+  width: '311px',
+  height: '261px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(255, 255, 255, 1)',
+})
+
+const Rectangle243 = styled('Image')({
+  top: '445px',
+  left: '59px',
+  width: '263px',
+  height: '36px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(221, 225, 230, 1)',
+})
+
+const StyledText = styled('span')({
+  top: '292px',
+  left: '26px',
+  color: 'rgba(13, 1, 64, 1)',
+  height: 'auto',
+  'font-size': '40px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'El Messiri',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Group78 = styled('View')({
+  top: '583px',
+  left: '57px',
+  width: '87px',
+  height: '16px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const Text1 = styled('span')({
+  top: '0px',
+  left: '2px',
+  color: 'rgba(169, 165, 184, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Svg = styled('Image')({
+  top: '16px',
+  left: '87px',
+  width: '87',
+  height: '1px',
+  position: 'absolute',
+})
+
+const CommonfundTopHeader = styled('View')({
+  top: '-11px',
+  left: '-19px',
+  width: '401px',
+  height: '140px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const Rectangle239 = styled('Image')({
+  top: '71px',
+  left: '14px',
+  width: '387px',
+  height: '23px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(75, 85, 174, 1)',
+})
+
+const Rectangle240 = styled('Image')({
+  top: '94px',
+  left: '0px',
+  width: '401px',
+  height: '23px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(46, 107, 198, 1)',
+})
+
+const Rectangle241 = styled('Image')({
+  top: '117px',
+  left: '17px',
+  width: '384px',
+  height: '23px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(109, 176, 255, 1)',
+})
+
+const Rectangle246 = styled('Image')({
+  top: '0px',
+  left: '14px',
+  width: '387px',
+  height: '71px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(18, 44, 68, 1)',
+})
+
+const Logo1 = styled('Image')({
+  top: '21px',
+  left: '192px',
+  width: '200px',
+  height: '50px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+})
+
+const IconlyBoldLock = styled('View')({
+  top: '401px',
+  left: '59px',
+  width: '24px',
+  height: '25px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const Lock = styled('Image')({
+  top: '0px',
+  left: '0px',
+  width: '24px',
+  height: '25px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+})
+
+const Text2 = styled('span')({
+  top: '406px',
+  left: '91px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '15px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Save = styled('View')({
+  top: '529px',
+  left: '57px',
+  width: '266px',
+  height: '36px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+  'background-color': 'rgba(19, 1, 96, 1)',
+})
+
+const Text3 = styled('span')({
+  top: '12px',
+  left: '68px',
+  color: 'rgba(255, 255, 255, 1)',
+  width: '139px',
+  height: 'auto',
+  'font-size': '14px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text4 = styled('span')({
+  top: '455px',
+  left: '70px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Group781 = styled('Image')({
+  top: '728px',
+  left: '292px',
+  width: '60px',
+  height: '60px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+})
+
+import React from 'react'
+import { View, Text, br } from 'react-native'
+
+import styled from 'styled-components/native'
+
+const Login = (props) => {
+  return (
+    <View>
+      <StyledLogin>
+        <StyledText>
+          <Text>
+            Existing clients
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text>
+          <br></br>
+          <Text>please log-in below.</Text>
+        </StyledText>
+        <Group76
+          source={require('../playground_assets/93bfdafb-88b0-4a83-8139-6283347dd320-ui9b.svg')}
+          alt="Group761170"
+        ></Group76>
+        <Text04>Important Information</Text04>
+        <Text05>
+          <Text>
+            By logging in and using the account information of this Website, you
+            agree that Commonfund will have no liability for damages arising
+            from any actions such as investment decisions, taken by or
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text>
+          <br></br>
+          <Text>
+            or behalf of your institution based on the accuracy of
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text>
+          <br></br>
+          <Text>
+            the account data presented in this app.
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text>
+        </Text05>
+        <Save>
+          <Rectangle152
+            source={require('../playground_assets/cfad3759-5b1a-486f-bbe6-e4263d2e36d7-g2b.svg')}
+            alt="Rectangle15221035"
+          ></Rectangle152>
+          <Text11>Login</Text11>
+        </Save>
+        <Rectangle243
+          source={require('../playground_assets/4a5b646c-fdbd-4e2b-b169-c1a60dd06817-8o7j.svg')}
+          alt="Rectangle24320919"
+        ></Rectangle243>
+        <Text12>Username</Text12>
+        <Rectangle244
+          source={require('../playground_assets/a5c6cb40-e2d6-4d54-be92-3d18e6436e2b-a5v.svg')}
+          alt="Rectangle24420920"
+        ></Rectangle244>
+        <Text13>Password</Text13>
+        <Rectangle245
+          source={require('../playground_assets/cde644d9-644a-449c-88aa-af33fa3d7668-zogm.svg')}
+          alt="Rectangle24520921"
+        ></Rectangle245>
+        <Text14>
+          Secure Access
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </Text14>
+        <CommonfundTopHeader>
+          <Rectangle239
+            source={require('../playground_assets/bd0468be-547d-4a2a-bd40-8644fd6410c5-acjf.svg')}
+            alt="Rectangle23920915"
+          ></Rectangle239>
+          <Rectangle240
+            source={require('../playground_assets/035469e3-9445-4b82-af9c-5fe5dda0dc01-hv2f.svg')}
+            alt="Rectangle24020916"
+          ></Rectangle240>
+          <Rectangle241
+            source={require('../playground_assets/7188dda4-15e0-4223-b19d-d50a5c0bddc9-1jf.svg')}
+            alt="Rectangle24120917"
+          ></Rectangle241>
+          <Rectangle246
+            source={require('../playground_assets/db6c3464-4aac-423d-85e5-670069c62bbb-5h6.svg')}
+            alt="Rectangle24621030"
+          ></Rectangle246>
+          <Logo1
+            source={require('../playground_assets/a4c8c4e1-8b59-468e-946d-922f6bdb3ac4-5c8b-200h.png')}
+            alt="Logo121031"
+          ></Logo1>
+        </CommonfundTopHeader>
+        <Text15>Remember me?</Text15>
+        <IconlyBoldLock>
+          <Lock
+            source={require('../playground_assets/3b87a992-fec0-4a39-b4ab-c1e2ca60a79b-m34n.svg')}
+            alt="Lock21043"
+          ></Lock>
+        </IconlyBoldLock>
+        <Group77>
+          <Text16>Reset Password</Text16>
+          <Svg
+            source={require('../playground_assets/1e704138-f80e-4d31-b80c-5765b81014ab-54l.svg')}
+            alt="Line121046"
+          ></Svg>
+        </Group77>
+      </StyledLogin>
+    </View>
+  )
+}
+
+export default Login
+
+const StyledLogin = styled('View')({
+  width: '375px',
+  height: '812px',
+  display: 'flex',
+  'max-width': '375px',
+  overflow: 'hidden',
+  position: 'relative',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'border-color': 'transparent',
+  'border-radius': '30px',
+  'background-color': 'rgba(242, 241, 241, 1)',
+})
+
+const StyledText = styled('span')({
+  top: '231px',
+  left: '27px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '40px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'El Messiri',
+  'font-weight': '400px',
+  'line-height': '94.69999670982361%',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Group76 = styled('Image')({
+  top: '731px',
+  left: '289px',
+  width: '60px',
+  height: '60px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+})
+
+const Text04 = styled('span')({
+  top: '664px',
+  left: '36px',
+  color: 'rgba(81, 74, 107, 1)',
+  height: 'auto',
+  'font-size': '14px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text05 = styled('span')({
+  top: '682px',
+  left: '36px',
+  color: 'rgba(81, 74, 107, 1)',
+  width: '313px',
+  height: 'auto',
+  'font-size': '10px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Save = styled('View')({
+  top: '338px',
+  left: '36px',
+  width: '311px',
+  height: '312px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+  'background-color': 'rgba(255, 255, 255, 1)',
+})
+
+const Rectangle152 = styled('Image')({
+  top: '226px',
+  left: '20px',
+  width: '266px',
+  height: '36px',
+  position: 'absolute',
+  'box-shadow': '0px 4px 62px 0px rgba(153, 170, 197, 0.18000000715255737) ',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(19, 1, 96, 1)',
+})
+
+const Text11 = styled('span')({
+  top: '238.24000549316406px',
+  left: '136px',
+  color: 'rgba(255, 255, 255, 1)',
+  width: '46px',
+  height: 'auto',
+  'font-size': '14px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Rectangle243 = styled('Image')({
+  top: '422px',
+  left: '55px',
+  width: '263px',
+  height: '36px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(221, 225, 230, 1)',
+})
+
+const Text12 = styled('span')({
+  top: '432px',
+  left: '65px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Rectangle244 = styled('Image')({
+  top: '473px',
+  left: '56px',
+  width: '263px',
+  height: '36px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(221, 225, 230, 1)',
+})
+
+const Text13 = styled('span')({
+  top: '483px',
+  left: '65px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Rectangle245 = styled('Image')({
+  top: '530px',
+  left: '59px',
+  width: '20px',
+  height: '20px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'rgba(0, 0, 0, 1)',
+  'border-style': 'solid',
+  'border-width': '1px',
+  'border-radius': '5px',
+  'background-color': 'rgba(255, 255, 255, 1)',
+})
+
+const Text14 = styled('span')({
+  top: '371px',
+  left: '84px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '15px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const CommonfundTopHeader = styled('View')({
+  top: '-11px',
+  left: '-17px',
+  width: '401px',
+  height: '140px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const Rectangle239 = styled('Image')({
+  top: '71px',
+  left: '14px',
+  width: '387px',
+  height: '23px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(75, 85, 174, 1)',
+})
+
+const Rectangle240 = styled('Image')({
+  top: '94px',
+  left: '0px',
+  width: '401px',
+  height: '23px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(46, 107, 198, 1)',
+})
+
+const Rectangle241 = styled('Image')({
+  top: '117px',
+  left: '17px',
+  width: '384px',
+  height: '23px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(109, 176, 255, 1)',
+})
+
+const Rectangle246 = styled('Image')({
+  top: '0px',
+  left: '14px',
+  width: '387px',
+  height: '71px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(18, 44, 68, 1)',
+})
+
+const Logo1 = styled('Image')({
+  top: '21px',
+  left: '192px',
+  width: '200px',
+  height: '50px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+})
+
+const Text15 = styled('span')({
+  top: '532px',
+  left: '85px',
+  color: 'rgba(169, 165, 184, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const IconlyBoldLock = styled('View')({
+  top: '366px',
+  left: '55px',
+  width: '24px',
+  height: '25px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const Lock = styled('Image')({
+  top: '0px',
+  left: '0px',
+  width: '24px',
+  height: '25px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+})
+
+const Group77 = styled('View')({
+  top: '616px',
+  left: '55px',
+  width: '89px',
+  height: '16px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const Text16 = styled('span')({
+  top: '0px',
+  left: '2px',
+  color: 'rgba(169, 165, 184, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Svg = styled('Image')({
+  top: '16px',
+  left: '87px',
+  width: '87',
+  height: '1px',
+  position: 'absolute',
+})
+
+import React from 'react'
+import { View } from 'react-native'
+
+import styled from 'styled-components/native'
+
+const Logo = (props) => {
+  return (
+    <View>
+      <StyledLogo>
+        <Logo1
+          source={require('../playground_assets/ef8e4ec1-326c-4c23-a2a8-65f2cdc627a0-b1hw-200h.png')}
+          alt="Logo120914"
+        ></Logo1>
+      </StyledLogo>
+    </View>
+  )
+}
+
+export default Logo
+
+const StyledLogo = styled('View')({
+  width: '375px',
+  height: '812px',
+  display: 'flex',
+  'max-width': '375px',
+  overflow: 'hidden',
+  position: 'relative',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'border-color': 'transparent',
+  'border-radius': '30px',
+  'background-color': 'rgba(18, 44, 68, 1)',
+})
+
+const Logo1 = styled('Image')({
+  top: '306px',
+  left: '96px',
+  width: '200px',
+  height: '200px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+})
+
+import React from 'react'
+import { View, Text, br } from 'react-native'
+
+import styled from 'styled-components/native'
+
+import { TOKENS } from '.style'
+
+const NotificationExample = (props) => {
+  return (
+    <View>
+      <StyledNotificationExample>
+        <Rectangle252
+          source={require('../playground_assets/17c377d8-7c6d-43b3-b97c-61bbc7ee74d4-d166.svg')}
+          alt="Rectangle252234101"
+        ></Rectangle252>
+        <Back>
+          <Svg
+            source={require('../playground_assets/50308646-33fa-4516-9fa4-85712a217793-xqr.svg')}
+            alt="Arrow11407"
+          ></Svg>
+        </Back>
+        <Options>
+          <Svg1
+            source={require('../playground_assets/ace27b95-b203-4c7a-9501-95f04fd12148-70jf.svg')}
+            alt="Ellipse371430"
+          ></Svg1>
+          <Svg2
+            source={require('../playground_assets/d484ffef-1403-4919-91c7-fc0392303836-6gb.svg')}
+            alt="Ellipse381431"
+          ></Svg2>
+          <Svg3
+            source={require('../playground_assets/09eadb61-a35c-4c13-b7ba-88f7c313c6e6-t20l.svg')}
+            alt="Ellipse391432"
+          ></Svg3>
+        </Options>
+        <Rectangle235
+          source={require('../playground_assets/ba558e7f-c1c7-45a0-9066-c42eedde8d58-k6r9.svg')}
+          alt="Rectangle2351437"
+        ></Rectangle235>
+        <Rectangle245
+          source={require('../playground_assets/e0aec311-beda-4afe-9bbe-f92c182c5983-h91g.svg')}
+          alt="Rectangle24523419"
+        ></Rectangle245>
+        <Applynow>
+          <Svg4
+            source={require('../playground_assets/7ab46ab7-c50d-4b58-bb8a-892ad430598f-psf6.svg')}
+            alt="Rectangle101434"
+          ></Svg4>
+          <StyledText>Ok</StyledText>
+        </Applynow>
+        <Text01>Month End Processing Update</Text01>
+        <Text02>Important Notes</Text02>
+        <Text03>Don’t show me this alert again</Text03>
+        <Rectangle232
+          source={require('../playground_assets/5f907803-39a9-4c57-a0cb-a374bd2cf9ac-utva.svg')}
+          alt="Rectangle23223418"
+        ></Rectangle232>
+        <Text04>Important Notification</Text04>
+        <Text05>
+          <Text>Final May xx, 2022 positions for marketable investments</Text>
+          <br></br>
+          <Text>and performance are now available. Detailed strategy</Text>
+          <br></br>
+          <Text>
+            allocations for Multi-Strategy and Global Multi-Asset
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text>
+          <br></br>
+          <Text>Funds are now updated, as of June xx.</Text>
+          <br></br>
+          <Text></Text>
+          <br></br>
+          <Text>Effect March xx, 2022, the Passive Index Strategy will</Text>
+          <br></br>
+          <Text>
+            be included in the Non-US Strategy performance.
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text>
+        </Text05>
+        <Text19>
+          <Text>The next available month end transatcion date is June xx,</Text>
+          <br></br>
+          <Text>2022 with notification on or before June xx, 2022. Please</Text>
+          <br></br>
+          <Text>contact Investor Services 888-823-3863 with any</Text>
+          <br></br>
+          <Text>
+            transaction related questions.
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text>
+        </Text19>
+        <Text27>Hello John Smith.</Text27>
+        <Maskgroup>
+          <StyledImage
+            source={require('../playground_assets/39136cf4-e0be-4527-a3b6-751b9dfc35dc-fcxp-200h.png')}
+            alt="Image234100"
+          ></StyledImage>
+        </Maskgroup>
+        <Logogoogle>
+          <Rectangle15
+            source={require('../playground_assets/5be78063-9a72-44b8-ab8b-9c0b359f91d6-84bc-200w.png')}
+            alt="Rectangle151439"
+          ></Rectangle15>
+        </Logogoogle>
+        <Text28>
+          Institution
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </Text28>
+      </StyledNotificationExample>
+    </View>
+  )
+}
+
+export default NotificationExample
+
+const StyledNotificationExample = styled('View')({
+  width: '375px',
+  height: '812px',
+  display: 'flex',
+  'max-width': '375px',
+  overflow: 'hidden',
+  position: 'relative',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'border-color': 'transparent',
+  'border-radius': '30px',
+  'background-color': 'rgba(243, 242, 242, 1)',
+})
+
+const Rectangle252 = styled('Image')({
+  top: '122px',
+  left: '31px',
+  width: '312px',
+  height: '594px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(255, 255, 255, 1)',
+})
+
+const Back = styled('View')({
+  top: '30px',
+  left: '20px',
+  width: '24px',
+  height: '24px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+  'background-color': 'rgba(196, 196, 196, 1)',
+})
+
+const Svg = styled('Image')({
+  top: '12px',
+  left: '21px',
+  width: '18',
+  height: '0',
+  position: 'absolute',
+})
+
+const Options = styled('View')({
+  top: '30px',
+  left: '331px',
+  width: '24px',
+  height: '24px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+  'background-color': 'rgba(196, 196, 196, 1)',
+})
+
+const Svg1 = styled('Image')({
+  top: '3px',
+  left: '10px',
+  width: '4',
+  height: '4',
+  position: 'absolute',
+})
+
+const Svg2 = styled('Image')({
+  top: '10px',
+  left: '10px',
+  width: '4',
+  height: '4',
+  position: 'absolute',
+})
+
+const Svg3 = styled('Image')({
+  top: '17px',
+  left: '10px',
+  width: '4',
+  height: '4',
+  position: 'absolute',
+})
+
+const Rectangle235 = styled('Image')({
+  top: '258px',
+  left: '23px',
+  width: '326px',
+  height: '517px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': 'rgba(255, 255, 255, 1)',
+})
+
+const Rectangle245 = styled('Image')({
+  top: '693px',
+  left: '84px',
+  width: '20px',
+  height: '20px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'rgba(0, 0, 0, 1)',
+  'border-style': 'solid',
+  'border-width': '1px',
+  'border-radius': '5px',
+  'background-color': 'rgba(255, 255, 255, 1)',
+})
+
+const Applynow = styled('View')({
+  top: '727px',
+  left: '158px',
+  width: '63px',
+  height: '39px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const Svg4 = styled('Image')({
+  width: '63',
+  height: '39',
+  position: 'absolute',
+})
+
+const StyledText = styled('span')({
+  top: '12.479999542236328px',
+  left: '20px',
+  color: 'rgba(243, 242, 242, 1)',
+  width: '21px',
+  height: 'auto',
+  'font-size': '14px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text01 = styled('span')({
+  top: '323px',
+  left: '41px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '16px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+  '@media(max-width: 479px)': {
+    top: '347px',
+    right: '-3px',
+  },
+})
+
+const Text02 = styled('span')({
+  top: '555px',
+  left: '40px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '16px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text03 = styled('span')({
+  top: '691px',
+  left: '113px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'Cairo',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Rectangle232 = styled('Image')({
+  top: '248px',
+  left: '23px',
+  width: '328px',
+  height: '45px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'border-radius': '6px',
+  'background-color': 'rgba(255, 146, 40, 1)',
+})
+
+const Text04 = styled('span')({
+  top: '266px',
+  left: '104px',
+  color: 'rgba(255, 255, 255, 1)',
+  width: '173px',
+  height: 'auto',
+  'font-size': '16px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text05 = styled('span')({
+  top: '373px',
+  left: '44px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'Cairo',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text19 = styled('span')({
+  top: '590px',
+  left: '41px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'Cairo',
+  'font-weight': '400px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text27 = styled('span')({
+  top: '30px',
+  left: '41px',
+  color: 'rgba(13, 1, 64, 1)',
+  height: 'auto',
+  'font-size': '22px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': '121.11728191375732%',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+  '@media(max-width: 479px)': {
+    top: '29px',
+    left: '59px',
+  },
+})
+
+const Maskgroup = styled('View')({
+  top: '42px',
+  left: '309px',
+  width: '36px',
+  height: '36px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const StyledImage = styled('Image')({
+  top: '-1.440000057220459px',
+  left: '-1.440000057220459px',
+  width: '37px',
+  height: '37px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'background-color': TOKENS.DlColorAvatarusersquareOrlandodiggs,
+})
+
+const Logogoogle = styled('View')({
+  top: '186px',
+  left: '149px',
+  width: '77px',
+  height: '79px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+})
+
+const Rectangle15 = styled('Image')({
+  top: '0px',
+  left: '0px',
+  width: '77px',
+  height: '79px',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'object-fit': 'cover',
+  'border-color': 'transparent',
+  'border-radius': '48px',
+})
+
+const Text28 = styled('span')({
+  top: '177px',
+  left: '59px',
+  color: 'rgba(0, 0, 0, 1)',
+  height: 'auto',
+  'font-size': '22px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': '121.11728191375732%',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+import React from 'react'
+import { View } from 'react-native'
+
+import styled from 'styled-components/native'
+
+const Successfully = (props) => {
+  return (
+    <View>
+      <StyledSuccessfully>
+        <Save>
+          <StyledText>Continue</StyledText>
+        </Save>
+        <SignupwithGoogle>
+          <Text1>Back to Login</Text1>
+        </SignupwithGoogle>
+        <Text2>
+          Your password has been updated, please change your password regularly
+          to avoid this happening
+        </Text2>
+        <Text3>Successfully</Text3>
+      </StyledSuccessfully>
+    </View>
+  )
+}
+
+export default Successfully
+
+const StyledSuccessfully = styled('View')({
+  width: '375px',
+  height: '812px',
+  display: 'flex',
+  'max-width': '375px',
+  overflow: 'hidden',
+  position: 'relative',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'border-color': 'transparent',
+  'border-radius': '30px',
+  'background-color': 'rgba(243, 242, 242, 1)',
+})
+
+const Save = styled('View')({
+  top: '454px',
+  left: '29px',
+  width: '317px',
+  height: '50px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+  'background-color': 'rgba(19, 1, 96, 1)',
+})
+
+const StyledText = styled('span')({
+  top: '17px',
+  left: '117px',
+  color: 'rgba(255, 255, 255, 1)',
+  width: '83px',
+  height: 'auto',
+  'font-size': '14px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const SignupwithGoogle = styled('View')({
+  top: '519px',
+  left: '29px',
+  width: '317px',
+  height: '50px',
+  display: 'flex',
+  position: 'absolute',
+  'box-sizing': 'border-box',
+  'align-items': 'flex-start',
+  'flex-shrink': 1,
+  'border-color': 'transparent',
+  'background-color': 'rgba(214, 205, 254, 1)',
+})
+
+const Text1 = styled('span')({
+  top: '17px',
+  left: '98px',
+  color: 'rgba(255, 255, 255, 1)',
+  width: '122px',
+  height: 'auto',
+  'font-size': '14px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'DM Sans',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text2 = styled('span')({
+  top: '373px',
+  left: '25px',
+  color: 'rgba(81, 74, 107, 1)',
+  width: '305px',
+  height: 'auto',
+  'font-size': '12px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'center',
+  'font-family': 'DM Sans',
+  'font-weight': '400px',
+  'line-height': '160.0000023841858%',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
+
+const Text3 = styled('span')({
+  top: '295px',
+  left: '78px',
+  color: 'rgba(13, 1, 64, 1)',
+  height: 'auto',
+  'font-size': '40px',
+  position: 'absolute',
+  'align-self': 'auto',
+  'font-style': 'normal',
+  'text-align': 'left',
+  'font-family': 'El Messiri',
+  'font-weight': '700px',
+  'line-height': 'normal',
+  'font-stretch': 'normal',
+  'text-decoration': 'none',
+})
